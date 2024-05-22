@@ -1,65 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Sign In</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        .container {
-            width: 300px;
-            margin: 100px auto;
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .container h2 {
-            text-align: center;
-        }
-        .container label {
-            display: block;
-            margin: 10px 0 5px;
-        }
-        .container input {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        .container button {
-            width: 100%;
-            padding: 10px;
-            background-color: #0078D4;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        .container button:hover {
-            background-color: #005a9e;
-        }
-    </style>
+    <title>My Product Brand Name</title>
 </head>
+    <style>
+        h1 {
+  color: blue;
+  text-align: center;
+}
+.intro h2 {
+  text-align: center;
+}
+.entry {
+  width: 400px ;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+.divider h2 {
+  text-align: center;
+}
+.create {
+  width: 400px ;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+    </style>
 <body>
-    <div class="container">
-        <h2>Sign In</h2>
-        <form id="signInForm" method="post">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
-            
-            <button type="submit">Sign In</button>
-        </form>
-    </div>
-    <script>
-        document.getElementById('signInForm').addEventListener('submit', function (event) {
-            // Implement necessary JavaScript to handle form submission if required
-        });
-    </script>
+    <img data-tenant-branding-background="true" />
+<img data-tenant-branding-logo="true" alt="Company Logo" />
+    <div id="api"></div>
 </body>
 </html>
